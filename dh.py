@@ -47,7 +47,7 @@ def main():
     # Derive a symmetric key 
     symmetric_key = HKDF(
         algorithm=hashes.SHA256(),
-        length=32,  # Length of the symmetric key 
+        length=32,
         salt=None,
         info=b'secure session',
         backend=default_backend()
