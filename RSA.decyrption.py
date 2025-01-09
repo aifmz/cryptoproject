@@ -49,7 +49,7 @@ def encrypt_file(input_file, output_file, public_key):
 
 def main():
     # Directory path for saving keys and files
-    key_dir = r'C:\Users\ACER\Documents\crypto sheet4'
+    key_dir = r'C:\crypto'
 
     # Ensure the directory exists
     os.makedirs(key_dir, exist_ok=True)
